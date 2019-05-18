@@ -58,7 +58,7 @@
  <div class="content">
   
 
-<pre>yum -y install <a href="https://bluedrill.github.io/RPMS/Packages/noarch/bluedrill-release-1.0.2-0.noarch.rpm">https://bluedrill.github.io/RPMS/Packages/noarch/bluedrill-release-1.0.2-0.noarch.rpm</a></pre>
+<pre>docker run --rm -it -v ~/.ssh:/root/.ssh:ro -v ~/.gitconfig:/root/.gitconfig:ro -v ${PWD}/data:/data illallangi/bluedrill-build:latest</pre>
 
 </div>
 
